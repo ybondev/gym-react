@@ -23,54 +23,61 @@ function App() {
             data-bs-ride="carousel"
           >
             <div className="carousel-inner">
-              <div className="carousel-item active">
+              <div
+                className="carousel-item active"
+                style={{ position: "relative" }}
+              >
                 <div className="image1"></div>
-                <div className="carousel-caption container">
-                  <p>
-                    “Ability is what you’re capable of doing. Motivation
-                    determines what you do. Attitude determines how well you do
-                    it.”
-                  </p>
-                  <a href="#" className="btn-member">
-                    Become a member
-                  </a>
-                  <a href="#" className="btn-read-more mx-2">
-                    <i className="fa-solid fa-arrow-right"></i>
-                    <span>Read more...</span>
-                  </a>
+                <div className="row">
+                  <div className="col-md-6 caption">
+                    <span className="title-q">Decide. Commit. Succeed.</span>
+                    <div className="caption-text mb-3">
+                      “Ability is what you’re capable of doing. Motivation
+                      determines what you do. Attitude determines how well you
+                      do it.”
+                    </div>
+                    <div>
+                      <a href="#" className="btn-member">
+                        Become a member
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="carousel-item">
                 <div className="image2"></div>
-                <div className="carousel-caption container">
-                  <p>
-                    “I hated every minute of training, but I said, ‘Don’t quit.
-                    Suffer now and live the rest of your life as a champion.'”
-                  </p>
-                  <a href="#" className="btn-member">
-                    Become a member
-                  </a>
-                  <a href="#" className="btn-read-more mx-2">
-                    <i className="fa-solid fa-arrow-right"></i>
-                    <span>Read more...</span>
-                  </a>
+                <div className="row">
+                  <div className="col-md-6 caption">
+                    <span className="title-q">Every day is a choice.</span>
+                    <div className="caption-text mb-3">
+                      “I hated every minute of training, but I said, ‘Don’t
+                      quit. Suffer now and live the rest of your life as a
+                      champion.”
+                    </div>
+                    <div>
+                      <a href="#" className="btn-member">
+                        Become a member
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="carousel-item">
                 <div className="image3"></div>
-                <div className="carousel-caption container">
-                  <p>
-                    “The mind is the most important part of achieving any
-                    fitness goal. Mental change always comes before physical
-                    change.”
-                  </p>
-                  <a href="#" className="btn-member">
-                    Become a member
-                  </a>
-                  <a href="#" className="btn-read-more mx-2">
-                    <i className="fa-solid fa-arrow-right"></i>
-                    <span>Read more...</span>
-                  </a>
+                <div className="row">
+                  <div className="col-md-6 caption">
+                    <span className="title-q">Make yourself proud.</span>
+                    <div className="caption-text mb-3">
+                      “The mind is the most important part of achieving any
+                      fitness goal. Mental change always comes before physical
+                      change.”
+                    </div>
+                    <div>
+                      <a href="#" className="btn-member">
+                        Become a member
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
