@@ -19,7 +19,7 @@ function App() {
         <section className="index" id="home">
           <div
             id="carouselExampleAutoplaying"
-            className="carousel slide"
+            className="carousel slide carousel-fade"
             data-bs-ride="carousel"
           >
             <div className="carousel-inner">
